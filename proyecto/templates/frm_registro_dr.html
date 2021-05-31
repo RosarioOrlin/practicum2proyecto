@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Doctores</title>
+    <link rel="stylesheet" href="../css/estilos_registro.css">
+</head>
+<body>
+    
+    <section class="contenedor_registro">
+
+    <form action="../php/registro.php" method="POST" class="formulario">
+
+            <div>
+                <h1>FORMULARIO DE REGISTRO</h1>
+            </div>
+            
+            <div>
+                <img src="../imagenes/registro3.jpg" alt="Iniciar Sesión" />
+            </div>
+
+            <div>
+                <label  class="etiqueta"for=""># Cédula: * <input type="text" class="datos" name="cedula"></label>
+                
+            </div>
+            <div>
+                <label class="etiqueta" for="">Apellidos: * <input type="text" class="datos" name="apellidos"></label>
+                
+            </div>
+            
+            <div>
+                <label class="etiqueta" for="">Nombres: * <input type="text" class="datos" name="nombres"></label>
+                
+            </div>
+            <div>
+                <label class="etiqueta" for="">Dirección: * <input type="text" class="datos" name="direccion"></label>
+                
+            </div>
+
+            <div>
+                <label class="etiqueta" for="">Teléfono: * <input type="text" class="datos" name="telefono"></label>
+                
+            </div>
+            
+            <div>
+                <label class="etiqueta" for="">E-mail: * <input type="text" class="datos" name="email"></label>
+                
+            </div>
+
+            <div>
+                <label class="etiqueta" for="">Password: * <input type="password" class="datos" name="password"></label>
+                
+            </div>
+
+            <div>
+                <label class="etiqueta" for="">Password: * <input type="password" class="datos"  name="rpass" placeholder="Vuelva a escribir la contaseña"></label>
+                
+            </div>
+
+            <div>
+                <input type="submit" value="Registrarse" class="boton">
+                <a href="../templates/frm_login_dr.html"><input type="button" value="Ingresar" class="boton"></a>
+                <a href="../index.html"><input type="button" value="Cancelar" class="boton" ></a>
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>

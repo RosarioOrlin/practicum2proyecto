@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(157, 160, 160);
+    display: block;
+}
+nav{
+    text-align: center;
+    height: 50px;
+    
+}
+a{
+    display: block;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-top: 20px ;
+    
+}
+.contenedor{
+    margin: 20px;
+    width: auto;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 10px;
+    padding: 0 90px;
+}
+ul{
+    
+    padding: 0 195px;
+}
+li{
+    
+    margin-top: 10px;
+}
